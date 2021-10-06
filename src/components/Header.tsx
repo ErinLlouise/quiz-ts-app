@@ -4,7 +4,9 @@ import './Header.styles.css'
 const Header = () => {
     return (
         <>
-          <img className='App-logo' src='poppyimg.png' alt='poppy' />
+          <div className='App-header'>
+            <img className='App-logo' src='poppyimg.png' alt='poppy' />
+          </div>
         </>
     )
 }
